@@ -1,0 +1,138 @@
+.Main-api-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.Api-side {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  min-width: 182px;
+  border-right: 1px solid darkgrey;
+  position: fixed;
+  left: 210px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  top: 190px;
+  padding-left: 10px;
+}
+
+.Api-side-titles {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 10px 20px 10px;
+  margin-bottom: 1rem;
+  color: darkgrey;
+  cursor: pointer;
+}
+
+.Api-side-titles-selected {
+  text-align: center;
+  background-color: rgba(204,123,25,0.4);
+  border-radius: 4px;
+  color: #eee;
+  font-size: 16px;
+  padding: 20px 10px 20px 10px;
+  margin-bottom: 1rem;
+}
+
+.Api-side-titles:hover {
+  background-color: rgba(200,200,200,0.1);
+  border-radius: 4px;
+  color: #eee;
+}
+
+.Api-test-content {
+  display: flex;
+  flex-direction: column;
+  /* position: fixed; */
+  left: 410px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-top: 65px;
+  width: 100%;
+  padding-left: 162px;
+}
+
+.api-ContentExample-definition {
+  width: 100%;
+  background-color: rgba(216, 211, 211, 0.329);
+  padding: 10px;
+}
+
+.Main-query-Content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 460px;
+}
+
+.api-query-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  /* padding: 5px; */
+}
+
+.api-singleQuery-content {
+  width: 100%;
+  display: flex;
+  background-color: rgba(200,200,200,1);
+  /* justify-content: space-around; */
+  border-bottom: 1px solid white;
+}
+
+.api-singleQuery-name {
+  width: 50%;
+  margin: 4px;
+  /* border: 1px solid grey; */
+  /* background: white; */
+  color: black;
+  padding-left: 10px;
+}
+
+.api-singleQyery-input {
+  border: none;
+  background: none;
+  padding: 4px;
+  flex: 1;
+  background-color: rgba(150,150,150,1.6);
+}
+
+.api-singleQuery-required {
+  background-color: rgba(150,150,150,1.6);
+  color: black;
+  font-weight: 600;
+  padding: 4px;
+}
+
+.api-singleQuery-optional {
+  background-color: rgba(150,150,150,1.6);
+  color: white;
+  font-weight: 400;
+  padding: 4px;
+}
+
+.Api-request-res {
+  background-color: rgba(240,240,240,0.9);
+  max-height: 600px;
+}
+
+.Send-request-container {
+  margin-top: 2rem;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: nowrap;
+  height: auto;
+  align-items: center;
+}
+
+.Api-full-show {
+  display: block;
+}
+
+.Api-full-hide {
+  display: none;
+}

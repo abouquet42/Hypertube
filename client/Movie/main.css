@@ -1,0 +1,78 @@
+.divFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.divFlex2 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    overflow-x: auto;
+}
+
+.divCol {
+    max-width: 100%;
+    flex: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    display: flex;
+    flex-direction: column;
+    /* max-width: 100%; */
+    justify-content: center;
+    width: 0px;
+    min-width: 550px;
+}
+
+#prof-img {
+    /* position: relative; */
+    /* margin-bottom: 3rem; */
+    /* width: 40px; */
+    /* height: 40px; */
+      margin-top: 2%;
+      /* border: 5px double #4285f4; */
+      /* background-color: grey; */
+      /* max-width: 100px; */
+      float: left;
+      border-radius: 50%;
+      z-index: 2;
+  }
+  
+  #imgmaggle {
+      width: auto;
+      height: 106px;
+      /* margin-left: -5px; */
+      border-radius: 50%;
+      /* z-index: -1; */
+  }
+
+  ::-webkit-scrollbar {									/* Scrollbars */
+	width: 14px;
+    height: 14px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {								/* Barre */
+	border: solid 0 transparent;
+	border-right-width: 4px;
+	-webkit-border-radius: 5px;
+	-webkit-border-top-right-radius: 9px 5px;
+	-webkit-border-bottom-right-radius: 9px 5px;
+	-webkit-box-shadow: inset 0 0 0 1px rgb(79,79,79), inset 0 0 0 6px rgb(102,102,102);
+}
+::-webkit-scrollbar-thumb:hover {						/* Barre */
+	-webkit-box-shadow: inset 0 0 0 1px rgb(90,90,90), inset 0 0 0 6px rgb(110,110,110);
+}
+::-webkit-scrollbar-thumb:horizontal {					/* Barre du bas */
+	border-right-width: 0;
+	border-bottom-width: 4px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px 9px;
+	-webkit-border-bottom-left-radius: 5px 9px;
+}
+
+.imgDetails:hover {
+    background-color: gray;
+    opacity: 0.5;
+}

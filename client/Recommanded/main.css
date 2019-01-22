@@ -1,0 +1,12 @@
+.Title-recom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Index-Recom-Resume-Cards {
+  height: 0px;
+}
+.show-Index-Recom-Resume-Cards {
+  height: auto;
+}
